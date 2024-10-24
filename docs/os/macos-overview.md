@@ -196,7 +196,7 @@ Alternatively, you can check apps before you run them by running this command in
 % codesign -dvvv --entitlements - <path to your app>
 ```
 
-If an app is sandboxed, you should see
+If an app is sandboxed, you should see the following output:
 
 ``` zsh
     [Key] com.apple.security.app-sandbox
