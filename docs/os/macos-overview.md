@@ -181,7 +181,7 @@ Software downloaded from outside the official App Store is not required to be sa
 
 You can check if an app uses the App Sandbox in a few ways:
 
-You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/app_sandbox/protecting_user_data_with_app_sandbox#4098972).
+You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
