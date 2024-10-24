@@ -208,7 +208,7 @@ If you find that the app you want to run is not sandboxed, then you may employ m
 
 ##### Hardened Runtime
 
-The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
+The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra form of protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
 
 You can check if an app uses the Hardened Runtime using the command
 
