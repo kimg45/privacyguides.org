@@ -216,7 +216,7 @@ You can check if an app uses the Hardened Runtime using this command:
 codesign --display --verbose /path/to/bundle.app
 ```
 
-If Hardened Runtime is enabled, you will see flags=0x10000(runtime). The "runtime" means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
+If Hardened Runtime is enabled, you will see `flags=0x10000(runtime)`. The `runtime` output means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
 
 You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
 
