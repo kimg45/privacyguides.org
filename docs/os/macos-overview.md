@@ -210,7 +210,7 @@ If you find that the app you want to run is not sandboxed, then you may employ m
 
 The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra form of protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
 
-You can check if an app uses the Hardened Runtime using the command
+You can check if an app uses the Hardened Runtime using this command:
 
 ``` zsh
 codesign --display --verbose /path/to/bundle.app
